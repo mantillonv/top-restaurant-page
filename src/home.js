@@ -7,7 +7,7 @@ function loadHomePage() {
     headline.textContent = "Welcome to Our Restaurant";
 
     const image = document.createElement('img');
-    image.src = '../.img/main_img.png';
+    image.src = '../img/main_img.png';
     image.alt = 'restaurant_img';
 
     const description = document.createElement('p');

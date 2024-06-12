@@ -1,0 +1,82 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+li {
+    margin-right: 10px; /* Add spacing between items */
+}
+
+/* Optionally, to remove margin from the last item */
+li:last-child {
+    margin-right: 0;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Increase overall font size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between buttons */
+}
+
+nav button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increase button padding for larger size */
+    cursor: pointer;
+    font-size: 18px; /* Increase font size for buttons */
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.content-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-section h1, .content-section p {
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improve readability */
+}
+
+.content-section p {
+    max-width: 500px; /* Limit width for better readability */
+    text-align: left; /* Align text to the left for paragraphs */
+}
