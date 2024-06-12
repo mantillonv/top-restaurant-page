@@ -1,14 +1,13 @@
 ul {
     list-style-type: none;
     padding: 0;
-    display: flex; /* Use flexbox */
+    display: flex;
 }
 
 li {
-    margin-right: 10px; /* Add spacing between items */
+    margin-right: 10px; 
 }
 
-/* Optionally, to remove margin from the last item */
 li:last-child {
     margin-right: 0;
 }
@@ -17,7 +16,7 @@ li:last-child {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    font-size: 16px; /* Increase overall font size */
+    font-size: 16px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,16 +33,16 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Add space between buttons */
+    gap: 20px;
 }
 
 nav button {
     background-color: #444;
     color: white;
     border: none;
-    padding: 15px 30px; /* Increase button padding for larger size */
+    padding: 15px 30px;
     cursor: pointer;
-    font-size: 18px; /* Increase font size for buttons */
+    font-size: 18px; 
 }
 
 nav button:hover {
@@ -73,10 +72,10 @@ nav button:hover {
 
 .content-section h1, .content-section p {
     margin-bottom: 20px;
-    line-height: 1.6; /* Improve readability */
+    line-height: 1.6;
 }
 
 .content-section p {
-    max-width: 500px; /* Limit width for better readability */
-    text-align: left; /* Align text to the left for paragraphs */
+    max-width: 500px; 
+    text-align: left;
 }
