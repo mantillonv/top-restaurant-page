@@ -2,6 +2,3 @@
 JSON and DOM manipulation to dynamically render homepage, for The Odin Project.
 
 Create a full website with Node.js and Webpack.
-
-<h2>Screenshot:</h2>
-<img src="./img/thumbnail.png>" alt="screenshot_sample">
